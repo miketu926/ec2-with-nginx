@@ -7,7 +7,7 @@
   * Download key pair file (.pem) provided for access once config is final
   * `chmod 400 {filename}.pem` grants read permission only, otherwise the connection will fail
 * Connect using `ssh -i {filename}.pem ec2-user@{ip-public-dns}`
-* `sudo su` for superuser access (root)
+* `sudo su` for superuser access (root vs ec2-user) for installation access
 * Install nginx on the instance
   * This process will vary depending on the OS
   * https://www.nginx.com/resources/wiki/start/topics/tutorials/install/
